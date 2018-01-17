@@ -12,7 +12,7 @@
     {{else if block.orphan}}
       <span class="label label-danger">Orphan</span>
     {{else}}
-      <a href="http://explorer.etherzero.org/block/{{block.hash}}" class="hash" rel="nofollow" target="_blank">{{block.hash}}</a>
+      {{block.hash}}
     {{/if}}
   </td>
   <td>{{format-date-locale block.timestamp}}</td>
