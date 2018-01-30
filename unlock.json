@@ -1,0 +1,24 @@
+{
+	"threads": 2,
+	"coin": "eth",
+	"name": "unlock",
+	"redis": {
+		"endpoint": "127.0.0.1:6379",
+		"poolSize": 10,
+		"database": 0,
+		"password": ""
+	},
+	"unlocker": {
+		"enabled": true,
+		"poolFee": 2.0,
+		"poolFeeAddress": "0x43A1FE17F8F9d852D050aAFbD4e123a4642da2CB",
+		"donate": false,
+		"depth": 120,
+		"immatureDepth": 20,
+		"keepTxFees": false,
+		"interval": "30m",
+		"daemon": "http://rpc1.etherzero.org:9646",
+		"timeout": "10s"
+	}
+
+}

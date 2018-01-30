@@ -1,0 +1,25 @@
+{
+	"threads": 2,
+	"coin": "eth",
+	"name": "payouts",
+	"redis": {
+		"endpoint": "127.0.0.1:6379",
+		"poolSize": 10,
+		"database": 0,
+		"password": ""
+	},
+	"payouts": {
+		"enabled": true,
+		"requirePeers": 1,
+		"interval": "6h",
+		"daemon": "http://10.0.9.12:9646",
+		"timeout": "10s",
+		"address": "0x04a5a0be5222bad06720c795c58823e0adcb522c",
+		"gas": "21000",
+		"gasPrice": "50000000000",
+		"autoGas": false,
+		"threshold": 1000000000,
+		"bgsave": false
+	}
+
+}
