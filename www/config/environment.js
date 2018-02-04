@@ -15,14 +15,14 @@ module.exports = function(environment) {
 
     APP: {
       // API host and port
-        ApiUrl: 'http://localhost/',
+        ApiUrl: 'http://etz.miningpool.city/',
 
       // HTTP mining endpoint
-      HttpHost: 'http://localhost.com',
+      HttpHost: 'http://etz.miningpool.city',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'us-pool.etherzero.org',
+      StratumHost: 'etz.miningpool.city',
       StratumPort: 8008,
 
       // Fee and payout details
@@ -38,7 +38,7 @@ module.exports = function(environment) {
     /* Override ApiUrl just for development, while you are customizing
       frontend markup and css theme on your workstation.
     */
-    ENV.APP.ApiUrl = 'http://localhost:8080/'
+    ENV.APP.ApiUrl = 'http://etz.miningpool.city:8080/'
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
